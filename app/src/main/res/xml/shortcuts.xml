@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_insert_emoticon_black_24dp"
+        android:shortcutDisabledMessage="@string/compose_disabled_message1"
+        android:shortcutId="compose_1"
+        android:shortcutLongLabel="@string/long_1_label"
+        android:shortcutShortLabel="@string/short_1_label"
+        >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.liompei.shortcutsdemo.TestActivity"
+            android:targetPackage="com.liompei.shortcutsdemo"/>
+        <!-- more intents can go here; see below -->
+        <categories android:name="android.shortcut.conversation"/>
+
+    </shortcut>
+    <!-- more shortcuts can go here -->
+
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_favorite_black_24dp"
+        android:shortcutDisabledMessage="@string/compose_disabled_message1"
+        android:shortcutId="compose_2"
+        android:shortcutLongLabel="@string/short_2_label"
+        android:shortcutShortLabel="@string/short_2_label"
+        >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.liompei.shortcutsdemo.TestActivity"
+            android:targetPackage="com.liompei.shortcutsdemo"/>
+        <!-- more intents can go here; see below -->
+        <categories android:name="android.shortcut.conversation"/>
+
+    </shortcut>
+
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_camera_alt_black_24dp"
+        android:shortcutDisabledMessage="@string/compose_disabled_message1"
+        android:shortcutId="compose_3"
+        android:shortcutLongLabel="@string/short_3_label"
+        android:shortcutShortLabel="@string/short_3_label"
+        >
+    <intent
+        android:action="android.intent.action.VIEW"
+        android:targetClass="com.liompei.shortcutsdemo.TestActivity"
+        android:targetPackage="com.liompei.shortcutsdemo"/>
+    <!-- more intents can go here; see below -->
+    <categories android:name="android.shortcut.conversation"/>
+
+    </shortcut>
+</shortcuts>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ShortcutsDemo</string>
+    <string name="compose_disabled_message1">disabled_message1</string>
+    <string name="compose_shortcut_long_label1">shortcut_long_label1</string>
+    <string name="compose_shortcut_short_label1">shortcut_short_label1</string>
+
+    <string name="short_1_label">游戏</string>
+    <string name="long_1_label">long_1_label_long_1_label</string>
+
+    <string name="short_2_label">睡觉</string>
+    <string name="long_2_label">long_2_label_long_2_label</string>
+
+    <string name="short_3_label">吃饭</string>
+    <string name="long_3_label">long_3_label_long_3_label</string>
+
+</resources>
